@@ -1,0 +1,340 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-size: 12pt;
+
+}
+
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.campo-textarea{
+    width: 100%;
+    height: 300px;
+}
+
+#corpo{
+    min-height: 8%;
+    width: 98%;
+    overflow: auto;  font-family: arial;
+}
+
+#topo img{
+  width: 7em;
+  float: left;
+  margin: 1em;
+}
+
+
+#topo{
+  float: left;
+  width: 100%;
+
+}
+
+#titulo{
+  float: right;
+  text-align: right;
+}
+
+#topo h1{
+  font-size: 1.8em;
+  color: #c0392b;
+  margin: 0.7em;
+}
+
+#usuario{
+  font-size: 1.2em;
+  margin: 1em;    
+}
+
+#usuario a{
+   font-size: 1.2em;
+}
+
+#usuario a:hover{
+    text-decoration: underline;
+}
+
+
+#menu{
+  background: #c0392b;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li{
+      display: inline;
+
+}
+
+#menu ul li a{
+  border-right: 1px solid #e74c3c;
+  padding:10px;
+  color: #fff;
+  float: left;
+  font-size: 1.1em;
+}
+
+#menu ul li a:hover{
+   background: #e74c3c;
+}
+
+
+#conteudo{
+   min-height: 265px;
+   float: left;
+   width: 100%;   
+   padding-bottom: 50px;    
+}
+
+#rodape{
+    background: #7f8c8d;
+    width: 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 0.8em;
+}
+
+fieldset{
+  margin-top: 1em;
+  padding-bottom: 50px;
+  border: 1px solid #bdc3c7;    
+}
+
+#formulario .foto{
+  border: 1px solid #939393;
+  padding: 5px;
+  float: left;
+  margin: 10px;
+}
+
+
+.box_titulo{
+  display: block;
+  background: #bdc3c7;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.box_titulo label{
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+
+.campo{
+  display: block;
+  margin: 15px;
+}
+
+input[type='text']{
+  padding: 0.5em;
+  width: 60%;
+  border: 1px solid #ddd;    
+}
+
+input[type='password']{
+    padding: 0.5em;
+    border: 1px solid #ddd;    
+}
+
+input[type='text']:focus, input[type='password']:focus{
+  border: 1px solid #0000dd;
+}
+
+select{
+    width: 30%;
+    padding: 0.2em;
+    border: 1px solid #ddd;
+}
+select:focus{
+  border: 1px solid #0000dd;
+}
+
+option{
+  border: 1px dotted #ebebeb;
+  padding: 2px;
+}
+
+input[type='submit']{
+    background: #2980b9;
+    border: 0px;
+    color: #fff;
+    padding: 1em 1.5em;
+    float: right;
+}
+
+
+#botao_novo{
+  float: right;
+  margin: 10px;
+
+}
+
+#botao_novo a{
+  padding: 7px  25px 7px 25px;
+  display: block;
+  color: #fff;
+  background: #87CEFA;
+}
+
+#botao_novo a:hover{
+  background: #4682B4;
+}
+
+#mostracurso{
+  width: 70%;
+  float: left;
+  padding: 10px;
+}
+
+#mostracurso p{
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+
+#mostra_enquete{
+    margin: 20px;
+}
+
+#mostra_enquete h2{
+  margin-bottom: 10px;
+}
+
+#mostra_enquete span{
+    display: block;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.barra-ensquete{
+    border: 1px solid #ecf0f1;
+    padding: 1px;
+    width: 500px;
+    height: 25px;
+    float: left;
+    display: block;
+}
+
+.barra-ensquete img{
+    float: left;
+}
+.barra-ensquete label{
+    display: inline;
+    float: left;
+    width: 60px;
+    margin-left: 5px;  
+    margin-top: 3px;
+}
+
+#recado{
+   border-bottom: 2px solid #ddd;
+   width: 97%;
+   margin: 10px;
+   padding: 10px;
+   float: left;
+}
+
+#recado span{
+    margin-bottom: 10px;
+    background: #f8f8f8;
+    padding: 4px;
+}
+
+.recado-nome{
+    float: left;
+    width: 87%;border: 1px solid #ddd;
+}
+.recado-data{
+    text-align: right;
+    float: right;
+    padding: 0.2em;
+    color: #95a5a6;
+    width: 10%;border: 1px solid #ddd;
+}
+
+#recado p{
+    width: 87%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    min-height: 40px;
+}
+
+.recado-controle{
+    float: right;
+    width: 10%;border: 1px solid #ddd;
+}
+
+.recado-controle a{
+    display: table;
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+.recado-controle img{
+    width: 1.8em;
+    padding: 0.2em;
+}
+
+#form-topo-tabela{
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+#form-topo-tabela input[type=text]{
+    margin-right: 1em;
+    border: 1px solid #ddd;
+    padding: 0.4em;
+}
+
+#form-topo-tabela select{
+    margin-right: 2em;
+    padding: 0.1em;
+    width: 4em;
+    border: 1px solid #ddd;
+}
+
+#form-topo-tabela input[type=submit]{
+    background: #3498db;
+    border: 0px;
+    padding: 0.4em;
+    color: #fff;
+    cursor: pointer;
+}
+
+#fieldset-dados-evento .fieldset-dados-evento-titulo{
+    display: block;
+    margin: 1%;
+    font-size: 1.4em;
+}
+
+#fieldset-dados-evento p{
+    margin: 1%;
+}
